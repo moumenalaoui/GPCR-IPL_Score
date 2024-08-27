@@ -1,0 +1,21 @@
+name: gpcr-ipl
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - keras
+  - tensorflow
+  - shap=0.43.0
+  - biopandas
+  - pip
+  - scikit-learn
+  - pip:
+    - e3fp==1.2.5
+    - catboost
+    - lightgbm
+    - mlxtend
+    - pandas==2.0.3
+    - rdkit==2023.9.1
+    - scipy==1.10.1
+    - jupyter notebook
