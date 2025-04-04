@@ -17,5 +17,5 @@ dependencies:
     - mlxtend
     - pandas==2.0.3
     - rdkit==2023.9.1
-    - scipy==1.10.1
-    - jupyter notebook
+    - scipy
+    - notebook
